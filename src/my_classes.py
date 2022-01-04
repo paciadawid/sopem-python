@@ -1,6 +1,6 @@
 import time
 
-from my_functions import factorial_recu, factorial_loop
+from src.my_functions import factorial_recu, factorial_loop
 
 
 class Animal:
@@ -37,10 +37,10 @@ class Calculator:
             return False
 
     def factorial_recu(self, n):
-        factorial_recu(n)
+        return factorial_recu(n)
 
     def factorial_loop(self, n):
-        factorial_loop(n)
+        return factorial_loop(n)
 
 
 if __name__ == "__main__":

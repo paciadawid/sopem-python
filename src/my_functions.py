@@ -39,6 +39,8 @@ def calculate_total_cost(destination):
 
 
 def factorial_recu(n):
+    if not isinstance(n, int):
+        return False
     if n in [0, 1]:
         return 1
     elif n > 1:

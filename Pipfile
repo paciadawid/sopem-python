@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 # test
 behave = "*"
+requests = "*"
+faker = "*"
 
 [dev-packages]
 
