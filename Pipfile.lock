@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "864c5bada8827920835c456996f689831645fe468c341dd9e34c67e350a6ba3d"
+            "sha256": "737aea037c38ac80852fdfc0b99a21458c25affd69b1f49aa9cef17731f7ee30"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -33,11 +33,11 @@
         },
         "charset-normalizer": {
             "hashes": [
-                "sha256:1eecaa09422db5be9e29d7fc65664e6c33bd06f9ced7838578ba40d58bdf3721",
-                "sha256:b0b883e8e874edfdece9c28f314e3dd5badf067342e42fb162203335ae61aa2c"
+                "sha256:876d180e9d7432c5d1dfd4c5d26b72f099d503e8fcc0feb7532c9289be60fcbd",
+                "sha256:cb957888737fc0bbcd78e3df769addb41fd1ff8cf950dc9e7ad7793f1bf44455"
             ],
             "markers": "python_version >= '3'",
-            "version": "==2.0.9"
+            "version": "==2.0.10"
         },
         "faker": {
             "hashes": [
@@ -68,6 +68,14 @@
             ],
             "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==0.5.2"
+        },
+        "pyhamcrest": {
+            "hashes": [
+                "sha256:c29dc977154c49e17c30d1ed49a0a6e31cb0dc7bcf733ac4aa9cb58519c2b00c",
+                "sha256:dfb19cf6d71743e086fbb761ed7faea5aacbc8ec10c17a08b93ecde39192a3db"
+            ],
+            "index": "pypi",
+            "version": "==2.0.3"
         },
         "python-dateutil": {
             "hashes": [

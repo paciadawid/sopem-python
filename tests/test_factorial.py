@@ -1,6 +1,7 @@
 import unittest
 from src.my_classes import Calculator
 
+
 class MyTestCase(unittest.TestCase):
 
     def setUp(self) -> None:
@@ -21,9 +22,9 @@ class MyTestCase(unittest.TestCase):
     def test_float_1_5(self):
         self.assertEqual(self.calc.factorial_recu(1.5), False)
 
-
     def tearDown(self):
         pass
+
 
 if __name__ == '__main__':
     unittest.main()

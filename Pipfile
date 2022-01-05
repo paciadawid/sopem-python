@@ -8,6 +8,7 @@ name = "pypi"
 behave = "*"
 requests = "*"
 faker = "*"
+pyhamcrest = "*"
 
 [dev-packages]
 
